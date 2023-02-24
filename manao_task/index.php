@@ -24,16 +24,13 @@ if (isset($_COOKIE['login'])) {
         <input type="text" name="auth-login" id="auth-loginid" placeholder="Введите свой логин" required>
         <!-- oninput="testFunction()" -->
         <span class='error' id="auth-login-error"></span>
-        <p class="input-correction" id="auth-login-info">не менее 6 символов
-        </p>
+        <p class="input-correction" id="auth-login-info">не менее 6 символов</p>
         <label for="">Пароль</label>
         <input type="password" name="auth-password" placeholder="Введите свой пароль" required>
         <span class='error' id="auth-password-error"></span>
-
         <p class="input-correction" id="auth-password-info">не менее 6 символов, должен содержать буквы и цифры</p>
         <input type="submit" value="Войти" id="submitBtn" disabled><span class='error' id="auth-error"></span>
         <p>У вас нет аккаунта? <a href=" /register.php">Зарегистрироваться</a></p>
-
     </form>
 
 
